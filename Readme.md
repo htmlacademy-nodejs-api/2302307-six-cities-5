@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Andrey Vorontsov](https://up.htmlacademy.ru/nodejs-api/5/user/2302307).
-* Наставник: `Неизвестно`.
+* Наставник: [Константин Ильин](https://htmlacademy.ru/profile/id2374827).
 
 ---
 
