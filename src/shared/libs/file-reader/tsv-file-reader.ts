@@ -37,8 +37,8 @@ export class TSVFileReader implements FileReader {
         previewPicture,
         housingPictures: housingPictures.split(';')
           .map((picture) => picture),
-        isPremium: isPremium as unknown as boolean,
-        isFavorite: isFavorite as unknown as boolean,
+        isPremium: isPremium.toLowerCase() === 'true',
+        isFavorite: isFavorite.toLowerCase() === 'true',
         rating: parseFloat(rating),
         housingType: housingType as HousingType,
         roomCount: parseInt(roomCount, 10),
