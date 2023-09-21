@@ -1,5 +1,6 @@
 import {Command} from './command.interface.js';
 import {TSVFileReader} from '../../shared/libs/file-reader/index.js';
+import chalk from 'chalk';
 
 
 export class ImportCommand implements Command {
@@ -10,6 +11,7 @@ export class ImportCommand implements Command {
   public async execute(...parameters: string[]): Promise<void> {
     const [filename] = parameters;
     const fileReader = new TSVFileReader(filename);
+    const redText = chalk.hex('#c93a34');
 
     try {
       fileReader.read();
@@ -19,8 +21,8 @@ export class ImportCommand implements Command {
         throw error;
       }
 
-      console.error(`Can't import data from file: ${filename}`);
-      console.error(`Details: ${error.message}`);
+      console.error(redText(`Can't import data from file: ${filename}`));
+      console.error(redText(`Details: "${error.message}"`));
     }
   }
 }
