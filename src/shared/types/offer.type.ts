@@ -19,7 +19,7 @@ export type Offer = {
   guestCount: number;
   rentCost: number;
   conveniences: Convenience[];
-  author: User;
   commentCount: number;
   coordinates: Coordinates
+  author: User;
 }
