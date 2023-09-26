@@ -43,7 +43,7 @@ export class TSVFileReader implements FileReader {
         housingType: housingType as HousingType,
         roomCount: parseInt(roomCount, 10),
         guestCount: parseInt(guestCount, 10),
-        rentCost: parseInt(rentCost, 10),
+        price: parseInt(rentCost, 10),
         conveniences: conveniences.split(';')
           .map((convenience) =>
             convenience as Convenience
