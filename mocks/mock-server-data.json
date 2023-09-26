@@ -1,0 +1,114 @@
+{
+  "api": {
+    "titles": [
+      "Beautiful view from the window",
+      "Paradise house on the river bank",
+      "I'm selling garage",
+      "Nice apartment in the city center",
+      "A house on the outskirts of the city"
+    ],
+    "descriptions": [
+      "Come to us and have a good rest. We have a beautifully clean and delicious food.",
+      "Nothing unusual. Everything is like everyone else.",
+      "A unique offer - just pay us money and live in the house",
+      "Help me, I'm sitting in the basement and writing descriptions for offers",
+      "Beautiful house on the river bank. You can go fishing or fry kebabs"
+    ],
+    "postDates": [
+      "2023-02-20T17:19:12Z",
+      "2023-03-22T18:49:08Z",
+      "2023-05-27T06:18:18Z",
+      "2023-06-10T12:30:15Z",
+      "2023-08-12T09:12:09Z"
+    ],
+    "cities": [
+      "Paris",
+      "Cologne",
+      "Brussels",
+      "Amsterdam",
+      "Hamburg",
+      "Dusseldorf"
+    ],
+    "previewPictures": [
+      "https://random.imagecdn.app/400/500",
+      "https://random.imagecdn.app/600/600",
+      "https://random.imagecdn.app/500/500",
+      "https://random.imagecdn.app/400/400",
+      "https://random.imagecdn.app/550/450"
+    ],
+    "housingPictures": [
+      "https://random.imagecdn.app/1200/1200",
+      "https://random.imagecdn.app/1100/1200",
+      "https://random.imagecdn.app/1000/1100",
+      "https://random.imagecdn.app/1150/1250",
+      "https://random.imagecdn.app/1000/1000"
+    ],
+    "housingTypes": [
+      "apartment",
+      "house",
+      "room",
+      "hotel"
+    ],
+    "conveniences": [
+      "Breakfast",
+      "Air conditioning",
+      "Laptop friendly workspace",
+      "Baby seat",
+      "Washer",
+      "Towels",
+      "Fridge"
+    ],
+    "coordinates": [
+      {
+        "latitude": 48.85661,
+        "longitude": 2.351499
+      },
+      {
+        "latitude": 50.938361,
+        "longitude": 6.959974
+      },
+      {
+        "latitude": 50.846557,
+        "longitude": 4.351697
+      },
+      {
+        "latitude": 52.370216,
+        "longitude": 4.895168
+      },
+      {
+        "latitude": 53.550341,
+        "longitude": 10.000654
+      }
+    ],
+    "author": {
+      "names": [
+        "Micky Gavrielly",
+        "Rozalin Meconi",
+        "Matty Lowery",
+        "Reade Cosson",
+        "Wit Chatainier"
+      ],
+      "emails": [
+        "mgavrielly0@mit.edu",
+        "rmeconi1@sun.com",
+        "mlowery2@dion.ne.jp",
+        "rcosson3@myspace.com",
+        "wchatainier4@artisteer.com"
+      ],
+      "avatars": [
+        "https://robohash.org/nullaimpediteveniet.png?size=100x100&set=set1",
+        "https://robohash.org/omnisexpeditasuscipit.png?size=100x100&set=set1",
+        "https://robohash.org/autsuscipitminus.png?size=100x100&set=set1",
+        "https://robohash.org/sedeiusut.png?size=100x100&set=set1",
+        "https://robohash.org/numquamtemporeharum.png?size=100x100&set=set1"
+      ],
+      "passwords": [
+        "gD4)|>G(pj}T",
+        "aL3(yVBVl/GX0\"",
+        "nG6%K2a)AvDxAF",
+        "zN8?dxby+zmq",
+        "jC2\"LSDJ"
+      ]
+    }
+  }
+}
