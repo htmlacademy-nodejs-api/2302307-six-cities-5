@@ -19,3 +19,7 @@ export function getRandomItemsFromArray<T>(items: T[], targetArrayLength: number
   }
   return targetArray;
 }
+
+export function getRandomBoolean(): boolean {
+  return Math.round(Math.random() * 10) > 5;
+}
