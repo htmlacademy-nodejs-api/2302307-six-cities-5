@@ -8,7 +8,7 @@ export class ImportCommand implements Command {
     return '--import';
   }
 
-  public async execute(...parameters: string[]): Promise<void> {
+  public execute(...parameters: string[]): void {
     const [filename] = parameters;
     const fileReader = new TSVFileReader(filename);
     const redText = chalk.hex('#c93a34');
