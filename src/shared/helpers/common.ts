@@ -23,3 +23,7 @@ export function getRandomItemsFromArray<T>(items: T[], targetArrayLength: number
 export function getRandomBoolean(): boolean {
   return Math.round(Math.random() * 10) > 5;
 }
+
+export function getErrorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : '';
+}
