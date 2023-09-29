@@ -6,7 +6,7 @@ export class HelpCommand implements Command {
     return '--help';
   }
 
-  public async execute(..._parameters: string[]): Promise<void> {
+  public execute(..._parameters: string[]): void {
     const pinkText = chalk.hex('#ff59b5');
     const orangeText = chalk.hex('#ff9f3d');
     const greyText = chalk.hex('#979496');

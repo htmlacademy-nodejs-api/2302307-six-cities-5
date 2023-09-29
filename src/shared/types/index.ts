@@ -5,3 +5,4 @@ export * from './city.enum.js';
 export * from './convenience.enum.js';
 export * from './coordinates.type.js';
 export * from './housing-type.enum.js';
+export * from './mock-server-data.type.js';

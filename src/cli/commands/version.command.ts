@@ -37,7 +37,7 @@ export class VersionCommand implements Command {
     return '--version';
   }
 
-  public async execute(..._parameters: string[]): Promise<void> {
+  public execute(..._parameters: string[]): void {
     const redText = chalk.hex('#c93a34');
 
     try {
